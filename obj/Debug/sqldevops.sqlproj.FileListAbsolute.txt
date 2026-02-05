@@ -1,0 +1,10 @@
+C:\Users\TestUser\source\repos\sqldevops\bin\Debug\sqldevops.dacpac
+C:\Users\TestUser\source\repos\sqldevops\bin\Debug\sqldevops.dll
+C:\Users\TestUser\source\repos\sqldevops\bin\Debug\sqldevops.pdb
+C:\Users\TestUser\source\repos\sqldevops\obj\Debug\sqldevops.sqlproj.AssemblyReference.cache
+C:\Users\TestUser\source\repos\sqldevops\obj\Debug\Model.xml
+C:\Users\TestUser\source\repos\sqldevops\obj\Debug\refactor.xml
+C:\Users\TestUser\source\repos\sqldevops\obj\Debug\postdeploy.sql
+C:\Users\TestUser\source\repos\sqldevops\obj\Debug\predeploy.sql
+C:\Users\TestUser\source\repos\sqldevops\obj\Debug\sqldevops.dll
+C:\Users\TestUser\source\repos\sqldevops\obj\Debug\sqldevops.pdb
