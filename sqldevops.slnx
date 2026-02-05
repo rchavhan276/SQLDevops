@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="sqldevops.sqlproj">
+    <Build />
+    <Deploy />
+  </Project>
+</Solution>
