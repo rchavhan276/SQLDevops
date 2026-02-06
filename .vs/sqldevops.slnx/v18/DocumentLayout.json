@@ -1,12 +1,40 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\TestUser\\source\\repos\\sqldevops\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{23677856-0BC9-43CE-8CD0-5FEE70A78E8A}|sqldevops.sqlproj|C:\\Users\\TestUser\\source\\repos\\sqldevops\\Script.PostDeployment1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{23677856-0BC9-43CE-8CD0-5FEE70A78E8A}|sqldevops.sqlproj|solutionrelative:Script.PostDeployment1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23677856-0BC9-43CE-8CD0-5FEE70A78E8A}|sqldevops.sqlproj|C:\\Users\\TestUser\\source\\repos\\sqldevops\\Script.PostDeployment1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{23677856-0BC9-43CE-8CD0-5FEE70A78E8A}|sqldevops.sqlproj|solutionrelative:Script.PostDeployment1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Script.PostDeployment1.sql ",
+              "DocumentMoniker": "C:\\Users\\TestUser\\source\\repos\\sqldevops\\Script.PostDeployment1.sql",
+              "RelativeDocumentMoniker": "Script.PostDeployment1.sql",
+              "ToolTip": "C:\\Users\\TestUser\\source\\repos\\sqldevops\\Script.PostDeployment1.sql",
+              "RelativeToolTip": "Script.PostDeployment1.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-02-06T11:15:10.381Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
