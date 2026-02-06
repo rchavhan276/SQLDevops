@@ -13,10 +13,10 @@ PRINT 'Seeding EmployMaster data';
 
 MERGE dbo.EmployMaster AS T
 USING (VALUES
-    (101, N'Martin', N'warner', NULL, 513661666, NULL, NULL, NULL),
-    (102, N'Rohit', N'sharma', NULL, NULL, NULL, NULL, N'Australia'),
-    (103, N'cris', N'gayle', NULL, NULL, NULL, NULL, NULL)
-) AS S (EmployID, FirstName, LastName, City, mobile, age, Mobile_Number, region)
+    (101, N'Martin', N'warner', NULL, 513661666, NULL, NULL),
+    (102, N'Rohit', N'sharma', NULL, NULL, NULL, NULL),
+    (103, N'cris', N'gayle', NULL, NULL, NULL, NULL)
+) AS S (EmployID, FirstName, LastName, City, mobile, age, Mobile_Number)
 
 ON T.EmployID = S.EmployID
 
@@ -27,11 +27,10 @@ WHEN MATCHED THEN
         City          = S.City,
         mobile        = S.mobile,
         age           = S.age,
-        Mobile_Number = S.Mobile_Number,
-        region        = S.region
+        Mobile_Number = S.Mobile_Number
 
 WHEN NOT MATCHED THEN
-    INSERT (EmployID, FirstName, LastName, City, mobile, age, Mobile_Number, region)
-    VALUES (S.EmployID, S.FirstName, S.LastName, S.City, S.mobile, S.age, S.Mobile_Number, S.region);
+    INSERT (EmployID, FirstName, LastName, City, mobile, age, Mobile_Number)
+    VALUES (S.EmployID, S.FirstName, S.LastName, S.City, S.mobile, S.age, S.Mobile_Number);
 
 
